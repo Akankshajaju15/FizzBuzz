@@ -7,10 +7,11 @@ public class Fizzbuzz {
 		{
 			return "Fizz";
 		}
-		else
+		else if(i%5==0)
 		{
 			return "Buzz";
 		}
+		return null;
 	}
 
 }
