@@ -1,14 +1,16 @@
 package fizzbuzz;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
 class FizzbuzzTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		Fizzbuzz Fb = new Fizzbuzz();
+		for(int i=1;i<=100;i++)
+		{
+			System.out.println(Fb.action(i));
+		}
 	}
 
 }
